@@ -31,6 +31,8 @@ paths:
           description: OK
       tags:
       - skills
+      - associated
+      - skill
 definitions:
   Jobs:
     properties:
