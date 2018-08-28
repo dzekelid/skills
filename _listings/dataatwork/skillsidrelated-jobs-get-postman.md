@@ -1,24 +1,24 @@
 {
   "info": {
-    "name": "Open Skills API Skills Associated with a Skill",
-    "_postman_id": "e4ee4a96-e25f-4f9b-8d5d-20ec92445a4e",
-    "description": "Retrieves a collection of skills associated with a specified skill.",
+    "name": "Open Skills API Jobs Associated with a Skill",
+    "_postman_id": "dca36f6c-132d-4e28-b182-d9ba8e3c8d2f",
+    "description": "Retrieves a collection of jobs associated with a specified skill.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
     {
-      "name": "skills",
+      "name": "jobs",
       "item": [
         {
-          "id": "50c5eeba-40dc-4e3f-aa4c-16e897b7cf83",
-          "name": "retrieves-a-collection-of-skills-associated-with-a-specified-skill",
+          "id": "244d5af2-70a0-4f4a-a288-da05d97fe6bc",
+          "name": "retrieves-a-collection-of-jobs-associated-with-a-specified-skill",
           "request": {
             "url": {
               "protocol": "http",
               "host": "api.dataatwork.org",
               "path": [
                 "v1",
-                "skills/:id/related_skills"
+                "skills/:id/related_jobs"
               ],
               "variable": [
                 {
@@ -32,14 +32,14 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Retrieves a collection of skills associated with a specified skill"
+            "description": "Retrieves a collection of jobs associated with a specified skill"
           },
           "response": [
             {
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "b17dcdc3-dc27-4d4d-b696-26488c313204"
+              "id": "b2b6f080-73f3-4297-9e30-7ca88e1fd93b"
             }
           ]
         }
